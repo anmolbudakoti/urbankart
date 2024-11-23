@@ -1,8 +1,27 @@
-# React + Vite
+# UrbanKart - Shopping Site Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+UrbanKart is a React-based shopping site front-end project designed to showcase modern web development skills. This portfolio project highlights a fully responsive and interactive user interface, built to simulate a real-world e-commerce application.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern UI/UX:** Sleek and user-friendly design for an immersive shopping experience.
+- **Product Listings:** Dynamic product display with cards.
+- **Responsive Design:** Fully optimized for desktop, tablet, and mobile devices.
+- **Routing:** Seamless navigation using React Router.
+- **Interactive Elements:** Hover effects and smooth transitions for a polished look.
+- **Future Enhancements (Planned):**
+  - Product filtering and sorting
+  - Search functionality
+  - Cart and wishlist features
+  - Integration with a backend for dynamic data
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **CSS**: Custom styles for layout and design.
+- **React Router**: For implementing navigation and routing.
+- **GitHub Pages**: Hosting the project.
+
+## Live Demo
+
+Check out the live project here: [UrbanKart](https://anmolbudakoti.github.io/urbankart)
