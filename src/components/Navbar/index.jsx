@@ -48,8 +48,8 @@ export default function NavBar() {
                 <h1 className='text-2xl lg:text-3xl font-bold'><Link to={"/"}>UrbanKart</Link></h1>
             </div>
             <ul className={`${isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"} md:translate-x-0 md:opacity-100 h-screen md:h-auto bg-[#a42153] md:bg-transparent flex flex-col md:flex-row justify-center items-center fixed md:sticky top-0 right-0 z-50 list-none xl:text-xl font-bold gap-3 lg:gap-4 xl:gap-4`}>
-                <div className='flex justify-center items-center gap-2 lg:gap-4 m-3 xl:mr-20'>
-                    <input value={query} onChange={(e)=> setQuery(e.target.value)} type="text" className='bg-gray-100 text-black w-79 md:w-60 lg:w-80 lg:text-lg p-2 font-semibold rounded-xl md:rounded-3xl lg:rounded-2xl' name="search" id="search" placeholder='Search for Products, Brands and more...' />
+                <div className='flex justify-center items-center gap-2 lg:gap-4 m-6 md:m-3 xl:mr-20'>
+                    <input value={query} onChange={(e)=> setQuery(e.target.value)} type="text" className='bg-gray-100 text-black w-52 md:w-60 lg:w-80 lg:text-lg p-2 font-semibold rounded-xl md:rounded-3xl lg:rounded-2xl' name="search" id="search" placeholder='Search for Products, Brands and more...' />
                     <button onClick={handleSearch} className='hover:opacity-80 active:opacity-100'>
                         <img src="https://cdn-icons-png.flaticon.com/128/16019/16019946.png" alt="search" className='h-10 w-10 lg:h-12 lg:w-12' />
                     </button>

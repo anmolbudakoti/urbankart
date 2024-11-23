@@ -100,7 +100,6 @@ function ShoppingCartState({children}){
                 totalPrice: (allCartItems[findItemIndex].quantity+1)*allCartItems[findItemIndex].price
             }
         }
-        console.log(allCartItems)
         setCartItems(allCartItems)
         // localStorage.setItem("cartItems", JSON.stringify(allCartItems))
         navigate("/cart")

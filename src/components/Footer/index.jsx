@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <div className='bg-[#a42153] p-4 flex flex-col items-center gap-3'>
-      <h1 className='text-white font-bold mt-2 md:text-lg'>Subscribe for Newsletter & latest updates!</h1>
+      <h1 className='text-white font-bold text-center mt-2 md:text-lg'>Subscribe for Newsletter & latest updates!</h1>
       <div className='flex gap-1 justify-center items-center m-1 w-full'>
         <input className='p-1 rounded-xl md:p-2 md:w-80' type="text" name="newsletter" id="newsletter" placeholder='Your e-mail...' />
         <button className='p-1'>
