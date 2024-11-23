@@ -102,7 +102,7 @@ function ShoppingCartState({children}){
         }
         console.log(allCartItems)
         setCartItems(allCartItems)
-        localStorage.setItem("cartItems", JSON.stringify(allCartItems))
+        // localStorage.setItem("cartItems", JSON.stringify(allCartItems))
         navigate("/cart")
     }
 
@@ -121,13 +121,13 @@ function ShoppingCartState({children}){
             }
         }
 
-        localStorage.setItem("cartItems", JSON.stringify(copyCartItems))
+        // localStorage.setItem("cartItems", JSON.stringify(copyCartItems))
         setCartItems(copyCartItems)
     }
 
     useEffect(()=>{
         fetchProducts()
-        setCartItems(JSON.parse(localStorage.getItem("cartItems") || []))
+        // setCartItems(JSON.parse(localStorage.getItem("cartItems") || []))
     },[])
 
 
